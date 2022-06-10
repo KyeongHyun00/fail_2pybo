@@ -5,7 +5,6 @@ from django.utils import timezone
 
 from ..forms import QuestionForm
 from ..models import Question
-
 @login_required(login_url='common:login')
 def question_create(request):
     """
